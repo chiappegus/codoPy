@@ -1,29 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzas a Domicilio</title>
+    <title>CAC-Movies</title>
+    <link rel="icon" href="assets/img/favicon.ico">
 </head>
 <body>
-
-    <header> 
-     
-        <p>Bienvenido al mundo de las mejores pizzas </p>
-
-        <p>  Cuidate💟 </p>
-
+    <header>
+        <nav>
+            <div id= "textoMenu">
+                <!--falta icono-->
+                <span>CAC - Movies</span>
+            </div>
+            <ul>
+                <li><a href="#tendencias">Tendencias</a></li>
+                <li><a href="registrarse.html">Registrarse</a></li>
+                <li><a href="iniciarSesion.html">Iniciar Sesion</a></li>
+                <li><a href="#aclamadas">aclamadas</a></li>
+            </ul>
+        </nav>
     </header>
-
     <main>
-    <img src="https://assets.elgourmet.com/wp-content/uploads/2023/03/pizza_Mh3H4eanyBKEsStv1YclPWTf9OUqIi-1024x683.png"
-    width="800px" height="600px" 
-    >
+        <section id="banner">
+            <h2>Películas y series ilimitadas y mucho más.</h2>
+            <h3>Disfruta donde quieras. Cancela cuando quieras.</h3>
+            <a href="registrarse.html">Registrate</a>
+        </section>
+        <section id="buscador">
+            <h2>¿Qué estas buscando para ver?</h2>
+        </section>
+        <section id="tendencias">
+            <h2>Las tendencias de hoy</h2>
+            <div id="lista-peliculas">
+                <!--mostraremos imagenes de las peliculas-->
+                <a href="detallePelicula.html">
+                    <img src="assets/img/mario.jpg" alt="portadaMarioBros">
+                </a>
+            </div>
+        </section>
+        <section id="aclamadas">
+            <img src="https://assets.elgourmet.com/wp-content/uploads/2023/03/pizza_Mh3H4eanyBKEsStv1YclPWTf9OUqIi-1024x683.png"
+             alt="pizasss" height="300" width="400">
+        </section>
     </main>
-
     <footer>
-        <h3>Direccion : Colombia 3535 </h3>
+        <a href="">Terminos y condiciones</a>
+        <a href="">Preguntas frecuentes</a>
+        <a href="">Ayuda</a>
     </footer>
-    
 </body>
 </html>

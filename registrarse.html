@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - CAC Movies</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h2>Registro</h2>
+            <form action="" method="post">
+                <div>
+                    <label for="nombreUsuario">Nombre</label>
+                    <input type="text" id="nombreUsuario" name="nombreUsuarioIngresado">
+                </div>
+                <div>
+                    <label for="apellidoUsuario">Apellido</label>
+                    <input type="text" id="apellidoUsuario" name="apellidoUsuarioIngresado">
+                </div>
+                <div>
+                    <label for="emailUsuario">Email</label>
+                    <input type="email" id="emailUsuario" name="emailUsuarioIngresado">
+                </div>
+                <div>
+                    <label for="contraseniaUsuario">Contraseña</label>
+                    <input type="password" id="contraseniaUsuario" name="contraseniaUsuarioIngresado" maxlength="12" minlength="6">
+                </div>
+                <div>
+                    <label for="fechaNacUsuario">Fecha de nacimiento</label>
+                    <input type="date" id="fechaNacUsuario" name="fechaNacUsuarioIngresado">
+                </div>
+                <div>
+                    <label for="pais">Nacionalidad</label>
+                   <select id="pais" name="nacionalidadUsuarioIngresada">
+                        <option>--- Seleccione un Pais --</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CO">Colombia</option>
+                        <option value="VNZ">Venezuela</option>
+                   </select> 
+                </div>
+                <div>
+                    <input type="checkbox" id="terminos">
+                    <label for="terminos">Acepto términos y condiciones</label>
+                </div>
+
+           
+                <input type="submit" value="Registrarse">
+            </form>
+            <a href="">Necesitas ayuda?</a>
+        </section>
+    </main>
+</body>
+</html>
