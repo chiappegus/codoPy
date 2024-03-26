@@ -123,17 +123,29 @@ img{
     background-color: #d11212;
     width: 450px;
     height: 450px;
+    position: relative;
 } 
 
 .section_container div{
-    border: 5px solid rgb(18, 170, 30);
+    border: 5px solid rgb(18, 170, 30); 
+    background:rgb(22, 62, 192);
+   
     font: 1em sans-serif ;
-    align-items: center;
-    
-    width: 150px;
-    height: 150px;
-    display: flex;
+   
+    width: 100px; 
+    height: 100px;
+  
+    /* centrar */
 
+    position: absolute;
+    margin: auto;
+
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+   
 } 
 
 
