@@ -1,6 +1,22 @@
+:root {
+    --bg-body:rgb(94, 255, 0);
+    --bg-var:rgb(185, 165, 110);
+
+}
+
+* {
+ margin: 0;
+ padding: 0;
+}
+
+nav {
+    background-color: var(--bg-var);
+    height: 30 px;
+}
 
 header{
-    border: rgb(94, 255, 0);
+    /*border: rgb(94, 255, 0);*/
+    border: var(--bg-body);
     border-radius: 2%;
    
     
@@ -30,7 +46,12 @@ footer{
     height: 300px;
 }
 
+
+body{
+    font-family: "Workbench", sans-serif;
+}
 p{
+   
     
    color: #d11212 ;
     font-size: 1em ;
@@ -57,5 +78,23 @@ font-size: large;
 }
 
 img{
+    /* width:  58vh; */
+    width: 35vw ;
+    /* width: 50px; */
     position: static;
 }
+
+/* https://fonts.google.com/ */
+
+/* como instalar ::https://www.youtube.com/watch?v=otnkZyKGWZw */
+
+/* .workbench-<uniquifier> {
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+  }
+   */
