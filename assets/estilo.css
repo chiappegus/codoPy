@@ -135,16 +135,22 @@ img{
     width: 100px; 
     height: 100px;
   
-    /* centrar */
+    /* centrar  pero no es recomendada margin auto */
 
     position: absolute;
     margin: auto;
 
-    bottom: 0;
+    /* bottom: 0;
     top: 0;
     right: 0;
-    left: 0;
+    left: 0; */
     /* https://www.youtube.com/watch?v=PSwlAuRbv_A */
+
+    /* centrar  pero no es recomendada*/
+
+    /* se puede usar   inset:0 siempre margin auto;
+    */
+    inset:0;
    
 } 
 
