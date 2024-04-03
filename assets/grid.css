@@ -1,0 +1,19 @@
+/* https://www.youtube.com/watch?v=iTjkiI8QQsM*/
+
+.grid .container {
+
+    background-color: lightsalmon;
+    border: black solid 3px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns:  auto 100px 20px;
+}
+
+.grid .container div {
+    background-color: lightblue;
+    border: blue solid 2px;
+    border-radius: 6px;
+    
+}
+
+;
