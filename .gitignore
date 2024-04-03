@@ -265,3 +265,8 @@ cookiecutter_testing/data
 data/oceanbuoys (1).rda
 data/pedestrian (1).rda
 data/riskfactors (1).rda
+
+
+# if the files to be tracked are in subdirectories
+!*/img/*
+!*/a/b/c/
