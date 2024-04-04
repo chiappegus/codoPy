@@ -1,0 +1,38 @@
+/* https://www.youtube.com/watch?v=iTjkiI8QQsM*/
+/* 24 minutos */
+
+
+
+
+main{
+    border: 1px solid blue ;
+}
+
+body {
+    margin:0 ;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: repeat( auto-fill ,  /* puede ser auto-fill , auto-fit  aca mata al responsive@media(width > 750px ) */
+    minmax(200px , 1fr));
+    column-gap: 16px;
+    row-gap: 32px;  /* gap : 16px 32px  o  gap : 16px*/ 
+
+}
+/* responsibe
+@media(width > 750px ){
+    main div {
+    grid-template-columns: repeat(2,1fr);}
+}
+
+@media(width > 1000px ){
+    main div {
+    grid-template-columns: repeat(3,1fr);}
+}
+; */
