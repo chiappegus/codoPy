@@ -1,0 +1,62 @@
+/* https://www.youtube.com/watch?v=iTjkiI8QQsM*/
+/* 24 minutos */
+
+
+body{
+    margin: 0;
+}
+.grid .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 1fr  1fr  1fr  */
+    /* grid-template-rows: repeat(3, minmax(100px,1fr)); */
+
+    grid-template-rows: 1fr 3fr 1fr;
+    min-height: 100vh;
+    gap: 15px;
+    background-color: aqua;
+    border: black solid 1px;
+    border-radius: 10px;
+
+}
+
+.grid .container header {
+    grid-column: 1 /-1;
+    gap: 15px;
+    background-color: rgb(15, 53, 221);
+    border: black solid 1px;
+    border-radius: 10px;
+
+}
+
+
+.grid .container aside {
+   
+    gap: 15px;
+    background-color: rgb(225, 228, 35);
+    border: black solid 1px;
+    border-radius: 10px;
+
+}
+
+.grid .container main {
+   
+    gap: 15px;
+    background-color: rgb(212, 47, 41);
+    border: black solid 1px;
+    border-radius: 10px;
+    grid-column:  span 2;
+    
+
+}
+
+
+
+.grid .container footer {
+    grid-column: 1 /-1;
+    gap: 15px;
+    background-color: rgb(66, 66, 46);
+    border: black solid 1px;
+    border-radius: 10px;
+
+}
