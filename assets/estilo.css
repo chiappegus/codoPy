@@ -19,15 +19,16 @@ header{
     border: var(--bg-body);
     border-radius: 2%;
     margin:blue;
-    margin-bottom: 11%;
-    margin-top: 8%;
+    margin: 0;
+    /* margin-bottom: 11%;
+    margin-top: 8%; */
     /* background-color: blueviolet; */
-    background-image: url(img/mario.jpg); 
+    /* background-image: url(img/mario.jpg); 
     background-position:center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
    /* background-attachment: fixed;*/
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
 }
 main{
     margin-top: 8%;
@@ -44,7 +45,7 @@ footer{
 
 
 body{
-    font-family: "Workbench", sans-serif;
+    font-family:  sans-serif;
 }
 p{
    

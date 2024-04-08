@@ -1,0 +1,52 @@
+:root {
+    --bg-body : #181419;
+    --bg-nav : #db4648;
+}
+
+/*
+hola soy un comentario
+*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--bg-body);
+    font-family: "Nunito", sans-serif;
+    color: #FFF;
+}
+
+header {
+    position:sticky;
+    top:0;
+}
+
+nav {
+    background-color: var(--bg-nav);
+    height: 15vh;
+}
+
+
+h2 {
+    font-size: 3em; 
+}
+
+img {
+    width: 35vw;
+}
+
+#banner {
+    background-image: url(../img/banner-bg.jpg);
+    height: 85vh;
+}
+
+#texto-banner {
+    border: 15px solid #FFFF;
+    margin: 0 auto;
+    width:70vw;
+    min-width: 500px;
+    padding:50px
+}
