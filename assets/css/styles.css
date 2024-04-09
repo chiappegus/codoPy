@@ -58,14 +58,22 @@ img {
 }
 
 #banner {
-    background-image: url(../img/banner-bg.jpg);
+
     height: 85vh;
+
+    /* manejo de imagenes para adaptarlo se usa el cover y se centra */
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+
+    /**flex ***/
+    display: flex;
 }
 
-#texto-banner {
+/* #texto-banner {
     border: 15px solid #FFFF;
     margin: 0 auto;
     width:70vw;
     min-width: 500px;
     padding:50px
-}
+} */
