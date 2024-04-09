@@ -27,8 +27,27 @@ header {
 nav {
     background-color: var(--bg-nav);
     height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+} 
+
+#nav-links {
+    display: flex;
+   
+    list-style: none; /* saca los puntos de la lista */ 
+    gap: 30px; ; /* separacion entre los itemS*/
+    
 }
 
+#nav-links li a {
+text-decoration: none;/* se saca el subrrayado */
+color:inherit;/* se saca el azul asi toma el color del bco (el definido que es bco) */
+padding: 10px;
+
+
+}
 
 h2 {
     font-size: 3em; 
