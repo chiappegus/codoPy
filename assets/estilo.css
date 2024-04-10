@@ -37,6 +37,7 @@ main{
 }
 
 footer{
+   
     margin-top: 8%;
     margin-bottom: 10%;
     background-color: blueviolet;
@@ -56,7 +57,9 @@ p{
 
 #tendencias{
 
-    color: darkgreen;
+    /* color: darkgreen; */
+    height: 100vh;
+    display: flex;
 
 }
 

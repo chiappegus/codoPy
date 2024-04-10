@@ -68,6 +68,24 @@ img {
 
     /**flex ***/
     display: flex;
+
+    /*centro horizontal */
+    justify-content: center;
+    /* centro vertical  */
+    align-items: center;
+
+    /* no es flex */
+    text-align: center; 
+}
+
+#buscador{
+    height: 100vh; /*es el alto */
+    display: flex;
+    flex-direction: column; /* ojo es column!! para que no sea en una fila sino en columna.  */ 
+    justify-content: center;/* eje principal column (vertical) */ 
+    align-items: center;/* eje secundario  column (vertical) */ 
+
+
 }
 
 /* #texto-banner {
@@ -77,3 +95,29 @@ img {
     min-width: 500px;
     padding:50px
 } */
+
+#tendencias{
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+ 
+
+}
+
+.movies-flex{
+    display: flex;
+    flex-wrap: wrap; /*# si bajo resolucion aparecen más filas */
+    justify-content: space-evenly;
+    align-items: center;
+    
+   
+
+}
+
+.movie-item-img  {
+   
+    width: 200px;
+
+}
