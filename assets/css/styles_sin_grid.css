@@ -105,86 +105,23 @@ img {
  
 
 }
-/* seccion estilos con flex */
-/* .movies-flex{
+
+.movies-flex{
     display: flex;
-    flex-wrap: wrap; si bajo resolucion aparecen más filas 
+    flex-wrap: wrap; /*# si bajo resolucion aparecen más filas */
     justify-content: space-evenly;
     align-items: center;
-/* } 
-*/
+    
+   
+
+}
 
 .movie-item-img  {
-    height: 180px;
-    width: 160px;
+   
+    width: 200px;
+
 }
+
+
 
 /* https://cssreference.io/ */
-
-
-/* seccion estilos con grid */
-
-.movies-grid{
-
-
-height: 800px;
-/* background-color: #db4648; */
-display: grid;
-
-
-/*columnas y filas */
-grid-template-columns: repeat(4,200px);
-grid-template-rows: repeat(2,180px);
-
-/* Ubicacion de la grilla con respecto  a la etiqueta padre */
- /* justify-content: center;fila */
- /* align-content: center; columna  */
-
- place-content: center ; /* junta justify-content align-content */
- 
- /*ubicacion de los items con respecto a su celda*/
-
- place-items: center; /* justify-items: ; */  /* align-items: ; */
-
-gap: 28px;
-
-}
-
-/*tablet*/
-@media (max-width: 786px) {
-    .movies-grid{
-
-        grid-template-columns: repeat(3,200px);
-        grid-template-rows: repeat(2,180px);
-        gap: 15px;
-    }
-
-   
-}
-
-/*celular*/
-@media (max-width: 480px) {
-    .movies-grid{
-
-        grid-template-columns: repeat(2,200px);
-        grid-template-rows: repeat(2,180px);
-        gap: 2px;
-    }
-
-    }
-
-   
-
-
-
-
-
-.movie-item-detail{
-    display: none;
-}
-
-
-.footer{
-    display: flex;
-   
-}
