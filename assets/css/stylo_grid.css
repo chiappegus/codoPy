@@ -1,0 +1,102 @@
+.container {
+    /* margin: 0;
+    padding: 0; */
+    background-color: grey;
+    display: grid;
+    /* definir columnas y filas */
+    /* grid-template-columns: repeat(3,200px);
+   grid-template-rows:repeat(2,200px) ; */
+    /*ancho*/
+    /* grid-template-columns: 1fr repeat(2, 2fr ) 1fr; */
+    /* altura */
+    grid-template-rows: 1fr repeat(2, 2fr) 1fr;
+    /* grid-template-rows:repeat(2,200px) ;
+   */
+
+    grid-template-areas: ' header   header   header   header   '
+        ' publicidad main main main'
+        'publicidad main main main'
+        'publicidad main main main'
+        ' footer    footer         footer        footer  '
+    ;
+    gap: 10px;
+}
+
+.container .item1 {
+
+    grid-area: header;
+    background-color: red;
+}
+
+.container .item2 {
+
+    grid-area: main;
+    background-color: orange;
+}
+
+.container .item3 {
+
+    grid-area: publicidad;
+    background-color: blueviolet;
+}
+
+.container .item4 {
+
+    grid-area: footer;
+    background-color: aqua;
+}
+
+
+/*tablet*/
+@media (max-width: 786px) {
+    .container .item1 {
+
+
+        background-color: rgb(12, 12, 12);
+    }
+
+    .container {
+
+
+        grid-template-areas:
+            'header header header header'
+            'main main main main'
+            'main main main main'
+            'publicidad publicidad publicidad publicidad'
+            'footer footer footer footer'
+        ;
+        gap: 1px;
+    }
+}
+
+/*celular*/
+@media (max-width: 480px) {
+    .container .item1 {
+
+
+        background-color: rgb(233, 229, 16);
+    }
+
+    .container {
+
+
+        grid-template-areas:
+            'header header header header'
+            'main main main main'
+            'main main main main'
+            'main main main main'
+            'footer footer footer footer'
+        ;
+        gap: 1px;
+    }
+
+    .container .item3 {
+        display: none;
+        /* grid-area: publicidad;
+        background-color: blueviolet;
+     */
+    }
+
+    /* https://youtu.be/ok8eGiL0uD4?list=PL6DI3O9J_J197U4iGtgyFPQMLe_x5YlcY&t=3989 */
+
+}
